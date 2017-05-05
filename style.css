@@ -1,70 +1,66 @@
-body {
- background-color:#DCDCDC;
- margin:0;
+@font-face{
+	font-family: BadScript-Regular;
+	src:url(fonts/BadScript-Regular.ttf);
 }
-
-#header {
- background-color:#47a0c6;
- background: url(img/3.jpg);
- text-align:left;
- height:40px;
- color:	#FFFAF0;
- padding:7px 30px 3px;
- font-family:Gabriola;
- font-size:23px;
- font-weight:bold;
- box-shadow: 0px 2px 8px rgba(0, 0, 0, 1); 
- margin-bottom:1.5%;
- 
- }
- 
- #bottom {
- background-color:#47a0c6;
- background: url(img/3.jpg);
- text-align:left;
- height:40px;
- color:	#FFFAF0;
- padding:7px 30px 3px;
- font-family:Gabriola;
- font-size:23px;
- font-weight:bold;
- text-align:center;
- box-shadow: 0px -2px 8px rgba(0, 0, 0, 1); 
- margin-top:1.5%;
-  }
-
+@font-face{
+	font-family: Neucha;
+	src:url(fonts/Neucha.ttf);
+}
+body{
+	background-color: #D4FCD4;
+}
 img{
-width:30%;
-top:50%;
-float:left;
-margin-right:10px;
-border: 1px  solid black;
+	width: 30%;
+	height: 30%;
+}
+p{
+text-indent: 20px;
+}
+.bod{
+	float:center;
+	width: 80%;
+	height: 98%;
+	margin:auto;
+	margin-top: 10px;
+}
+.head{
+	background-color: #00C289;
+	height: 10%;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	text-align: center;
+	font-size: 40px;
+	font-family: BadScript-Regular;
 }
 
-.box{
-background-color:#EDEDED;
-box-shadow: 0px 0px 8px rgba(0, 0, 0, 1);
-min-width:545px;
-padding: 0.8% 0.8% 1% 0.8%;
-width: 50%;
-margin:1% auto ;
-text-align:justify;
-border-radius:10px; 
-line-height:1;
-font-family:Gabriola;
-font-size:20px;
+.menu{
+	background-color: #00a776;
+	width: 23%;
+	min-height: 83%;
+	float:left;
+	font-family: Neucha;
+	padding:1%;
 }
-
-.box:hover .name{
-color: #102891;}
-
-.name{
-font-size:25px;
-font-family:Gabriola;
-font-weight:bold;}
-
-.teg{
-color:#424242;
-font-family:Gabriola;
-font-size:20px;
-font-weight:bold;}
+.page{
+	padding:3%;
+	float: right;
+	font-size: 18px;
+	min-height: 100px;
+	font-family: Neucha;
+}
+.text
+{
+	font-family: Neucha;
+	text-align: left;
+	margin-bottom: 10px;
+}
+.about{
+	font-family: Neucha;
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 10px;
+}
+.c{
+	float: right;
+	width: 65%;
+}
